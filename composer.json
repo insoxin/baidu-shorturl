@@ -1,0 +1,16 @@
+{
+    "name": "imacme/baidu-shorturl",
+    "description": "baidu short url",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3@dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "imacme",
+            "email": "imacme@aliyun.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
