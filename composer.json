@@ -3,7 +3,8 @@
     "description": "baidu short url",
     "type": "library",
     "require": {
-        "guzzlehttp/guzzle": "^6.3@dev"
+        "php": ">=7.1.0",
+        "guzzlehttp/guzzle": "^6.3"
     },
     "license": "MIT",
     "authors": [
@@ -12,5 +13,8 @@
             "email": "imacme@aliyun.com"
         }
     ],
+    "autoload": {
+        "psr-4": {"Doacme\\": "src/"}
+    },
     "minimum-stability": "dev"
 }
